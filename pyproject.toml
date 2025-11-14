@@ -1,0 +1,26 @@
+[project]
+name = "version-control"
+version = "1.0.0"
+description = "版本管理服务"
+authors = [
+    {name = "Developer", email = "developer@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "Flask==2.3.3",
+    "requests==2.31.0",
+    "waitress==2.1.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "flake8"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

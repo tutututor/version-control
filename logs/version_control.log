@@ -1,0 +1,46 @@
+2025-11-14 14:27:31 [INFO] [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10250
+ * Running on http://192.168.100.100:10250
+2025-11-14 14:27:31 [INFO] [_internal.py:97] [33mPress CTRL+C to quit[0m
+2025-11-14 14:27:31 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:27:32 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:27:32 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
+2025-11-14 14:28:02 [INFO] [app.py:104] 接口 /api/version/compare 认证成功
+2025-11-14 14:28:02 [INFO] [app.py:173] 版本比较请求: version=1.0.3
+2025-11-14 14:28:02 [INFO] [app.py:213] 版本比较结果: 本地版本较高, input=1.0.3, latest=1.1.0
+2025-11-14 14:28:02 [INFO] [_internal.py:97] 127.0.0.1 - - [14/Nov/2025 14:28:02] "GET /api/version/compare?version=1.0.3 HTTP/1.1" 200 -
+2025-11-14 14:28:04 [INFO] [app.py:104] 接口 /api/download/latest 认证成功
+2025-11-14 14:28:04 [INFO] [app.py:236] 下载安装包请求
+2025-11-14 14:28:04 [INFO] [app.py:248] 开始下载安装包，文件大小: 69 字节
+2025-11-14 14:28:04 [INFO] [_internal.py:97] 127.0.0.1 - - [14/Nov/2025 14:28:04] "GET /api/download/latest HTTP/1.1" 200 -
+2025-11-14 14:30:39 [INFO] [_internal.py:97]  * Detected change in 'E:\\南网项目\\version-control\\app.py', reloading
+2025-11-14 14:30:39 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:30:40 [INFO] [app.py:366] 启动开发环境服务器
+2025-11-14 14:30:40 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:30:40 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
+2025-11-14 14:42:58 [INFO] [_internal.py:97]  * Detected change in 'E:\\南网项目\\version-control\\app.py', reloading
+2025-11-14 14:42:58 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:42:58 [INFO] [app.py:366] 启动开发环境服务器
+2025-11-14 14:42:58 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:42:58 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
+2025-11-14 14:44:14 [INFO] [_internal.py:97]  * Detected change in 'E:\\南网项目\\version-control\\app.py', reloading
+2025-11-14 14:44:14 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:44:15 [INFO] [app.py:367] 启动开发环境服务器
+2025-11-14 14:44:15 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:44:15 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
+2025-11-14 14:44:51 [INFO] [_internal.py:97]  * Detected change in 'E:\\南网项目\\version-control\\app.py', reloading
+2025-11-14 14:44:52 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:44:52 [INFO] [app.py:367] 启动开发环境服务器
+2025-11-14 14:44:52 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:44:52 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
+2025-11-14 14:45:09 [INFO] [_internal.py:97]  * Detected change in 'E:\\南网项目\\version-control\\app.py', reloading
+2025-11-14 14:45:09 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:45:10 [INFO] [app.py:368] 启动开发环境服务器
+2025-11-14 14:45:10 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:45:10 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
+2025-11-14 14:45:43 [INFO] [_internal.py:97]  * Detected change in 'E:\\南网项目\\version-control\\app.py', reloading
+2025-11-14 14:45:43 [INFO] [_internal.py:97]  * Restarting with stat
+2025-11-14 14:45:44 [INFO] [app.py:368] 启动开发环境服务器
+2025-11-14 14:45:44 [WARNING] [_internal.py:97]  * Debugger is active!
+2025-11-14 14:45:44 [INFO] [_internal.py:97]  * Debugger PIN: 141-383-230
