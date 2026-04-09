@@ -281,7 +281,7 @@ async def upload_package():
         file = request.files['file']
         
         # 检查文件是否选择
-        if file.filename == '':
+        if file.filename is None or file.filename == '':
             logger.warning("上传接口没有选择文件")
             return jsonify({"error": "没有选择文件"}), 400
         
